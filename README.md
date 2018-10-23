@@ -1,2 +1,4 @@
 # ninePhotoLayout
-九宫格图片展示控件。
+九宫格图片展示控件。根据https://github.com/bingoogolapple/BGAPhotoPicker-Android的九宫格控件改造来的。
+因为自己的项目一添加依赖就报databinding的错误。就改造了一下。adapter使用的https://github.com/CymChad/BaseRecyclerViewAdapterHelper
+主要是把测量方式改了一下。BGA里面的是根据屏幕宽度设置的item宽度。我改成了根据在xml里面写的宽度设置item宽度。

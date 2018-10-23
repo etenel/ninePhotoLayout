@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NinePhotoLayout">
+        <!-- 当只有一张图片时，是否显示成大图，默认值为 true -->
+        <attr name="showAsLargeWhenOnlyOne" format="boolean"/>
+        <!-- Item 间的水平和垂直间距，默认值为 1dp -->
+        <attr name="itemWhiteSpacing" format="dimension|reference"/>
+        <!-- 占位图资源，默认值为 R.mipmap.bga_pp_ic_holder_light -->
+        <attr name="placeholderDrawable" format="reference"/>
+        <!-- item 的尺寸，优先级高于 bga_npl_otherWhiteSpacing，默认值为 0dp -->
+        <attr name="itemWidth" format="dimension|reference"/>
+        <!-- 列数,默认值为 3，当该值大于 3 并且数据源里只有四张图片时不会显示成 2 列 -->
+        <attr name="itemSpanCount" format="integer"/>
+    </declare-styleable>
+</resources>
